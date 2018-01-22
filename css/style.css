@@ -3,6 +3,9 @@
    License: none (public domain)
 */
 
+
+
+/*start css reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,6 +49,30 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*End of reset CSS*/
+
+/*start helper css*/
+.alignLeft{
+    float: left;
+}
+.aligRight{
+    float: right;
+}
+.marginBottom-10{
+    margin-bottom: 10px;
+}
+.marginBottom-20{
+    margin-bottom: 20px;
+}
+
+.marginBottom-30{
+    margin-bottom: 30px;
+}
+
+
+
+
+/*end helper css*/
 
 /* GENERAL */
 
@@ -53,4 +80,15 @@ table {
     max-width: 1100px;
     width: 100%;
     margin : 0 auto;
+}
+
+@font-face{
+    font-family:'HelveticaNeue-Thin';
+    src: local('HelveticaNeue-Thin.otf'),url('HelveticaNeue-Thin.otf') format('opentype');
+}
+body{
+    font-family: 'HelveticaNeue-Thin';
+}
+h1{
+    font-size: 25px;
 }
